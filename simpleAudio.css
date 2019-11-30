@@ -1,9 +1,28 @@
 body, html{
-	font-size: 16px;
+    font-size: 16px;
     font-weight: 300;
     line-height: 1.5;
     font-family: Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
     -webkit-font-smoothing: antialiased;
+}
+a:link {
+  color: rgb(68,138,255);
+  font-weight: 450;
+}
+
+a:visited {
+  color: rgb(68,138,255);
+  font-weight: 450;
+}
+
+a:hover {
+  color: rgb(68,138,255);
+  font-weight: 450;
+}
+
+a:active {
+  color: rgb(68,138,255);
+  font-weight: 450;
 }
 html::-webkit-scrollbar {
     width: 16px;
