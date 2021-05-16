@@ -40,9 +40,7 @@
                     </a> 
                     </div>
                     <div class="description" style="margin-top:35px;">
-                        <p class="text">
-                            Credit: KUT 90.5 Austin's NPR Station | Phil Benpott <a href="https://www.kut.org" target="_blank">kut.org</a> 
-                        </p>
+                        <p class="text"></p>
                     </div>
                 </div>
                 <div class="footer">
@@ -60,11 +58,11 @@
     <script>
 	var mediaPlay = document.getElementsByClassName("mediaPlay");
 	for (var i = 0; i < mediaPlay.length; i++) {
-	    mediaPlay[i].addEventListener('click', playPause, false);
+		mediaPlay[i].addEventListener('click', playPause, false);
 	};
 
 	function playPause() {
-            var audio = document.getElementById("audioI")
+		var audio = document.getElementById("audioI")
 		if (document.getElementById('playIcon').innerHTML  != '<i class="material-icons">play_arrow</i>'){
 			document.getElementById('playIcon').innerHTML = '<i class="material-icons">play_arrow</i>';
 			document.getElementById('playButton').innerHTML = 'Play';
